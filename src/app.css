@@ -49,8 +49,8 @@ h1 {
   padding: 2rem;
   display: flex;
   justify-content: center;
-
   text-align: center;
+
 }
 
 button {
@@ -137,4 +137,11 @@ button:focus-visible {
   100% {
     background-position: 0% 50%;
   }
+}
+
+video {
+  background-image: url('/thumbnail.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
