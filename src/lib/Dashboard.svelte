@@ -11,7 +11,7 @@
     setTimeout(() => {
 startTransition()
 
-    }, 500)
+    }, 1000)
   })
 
 </script>
