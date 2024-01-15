@@ -48,8 +48,7 @@ startTransition()
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 0.5rem;
-  padding: 0.5rem;
-
+    padding: 0.5rem;
   }
   .wrapper {
     transform: scale(0.1);
@@ -65,5 +64,13 @@ startTransition()
   h2 {
     margin: 0;
     text-align: start;
+  }
+
+  @media only screen and (max-width: 600px){
+    .cards {
+      grid-template-columns: 1fr;
+
+    }
+
   }
 </style>
