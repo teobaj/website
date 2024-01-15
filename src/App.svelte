@@ -19,7 +19,7 @@
   }
 </script>
   
-  <video bind:this={videoRef} muted>
+  <video bind:this={videoRef} muted webkit-playsinline playsinline>
     <source src={transitionVideo} />
   </video>
 <main>
