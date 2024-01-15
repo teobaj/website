@@ -9,8 +9,8 @@
   }
 </script>
 
-<div bind:this={formRef} class="card">
-  <h2>Enter the spider-verse</h2>
+<div bind:this={formRef} class="card gradient-border">
+  <h2>Authenticate</h2>
   <hr />
   <form on:submit|preventDefault={handleLogin}>
     <label>
